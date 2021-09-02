@@ -1,0 +1,105 @@
+@media screen and (min-width: 1024px) {
+    #nav {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:769px) {
+    #logo {
+        display: none;
+    }
+    #nav {
+        float: right;
+        margin-right: 5%;
+        text-align: right;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+    .receta-popular {
+        width: 40%;
+    }
+}
+@media screen and (max-width:768px) and (min-width: 481px) {
+    #logo {
+        display: none;
+    }
+    #titulo {
+        float: none;
+    }
+    #nav {
+        margin-top: 10px;
+        margin-left: -19%;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+    .receta-popular {
+        width: 40%;
+    }
+}
+@media screen and (max-width:480px) and (min-width: 321px) {
+    #logo {
+        display:none;
+    }
+    #titulo {
+        float: none;
+    }
+    #nav {
+        margin-top: 10px;
+        margin-left: -4%;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+    .carrusel {
+        height: 230px;
+    }
+    #imagen {
+        height: 230px;
+    }
+    .info-footer {
+        width: 50%;
+        margin: 0 25%;
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        height: 600px;
+    }
+    .receta-popular {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 320px) {
+    #logo {
+        display:none;
+    }
+    #titulo {
+        float: none;
+    }
+    #nav {
+        margin-top: 10px;
+        margin-left: -1%;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+    .carrusel {
+        height: 210px;
+    }
+    #imagen {
+        height: 210px;
+    }
+    .info-footer {
+        width: 50%;
+        margin: 0 25%;
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        height: 600px;
+    }
+    .receta-popular {
+        width: 95%;
+    }
+}

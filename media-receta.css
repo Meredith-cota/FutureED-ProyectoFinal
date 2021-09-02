@@ -1,0 +1,117 @@
+@media screen and (min-width: 1024px) {
+    #nav {
+        margin-left: 0;
+    }
+    main > h2 {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:769px) {
+    main > h2 {
+        margin-left: 10%;
+    }
+    li {
+        margin-left: 30.2%;  
+    }
+}
+@media screen and (max-width:768px) and (min-width: 481px) {
+    .introduccion {
+        height: 250px;
+    }
+    #nav > receta {
+        margin-top: 15px;
+    }
+    .miNombre {
+        font-size: 15px;
+    }
+    main > h2 {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:480px) and (min-width: 321px) {
+    #logo-receta {
+        display: none;
+    }
+    #nav-receta {
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+    .right {
+        float:inline-end;
+    }
+    .titulo-receta {
+        height: 80px;
+    }
+    .img-receta {
+        width: 90%;
+        margin: 2% 5%;
+        float: inline-start;
+    }
+    .introduccion {
+        height: 650px;
+    }
+    main {
+        display:block;
+    }
+    main > h2 {
+        margin-left: 10%;
+    }
+    .info-footer {
+        width: 50%;
+        margin: 0 25%;
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        height: 600px;
+    }
+    .receta-popular {
+        width: 95%;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #logo-receta {
+        display: none;
+    }
+    #nav-receta {
+        margin-left: -20px;
+    }
+    .right {
+        float:inline-end;
+    }
+    .titulo-receta {
+        height: 80px;
+    }
+    .img-receta {
+        width: 90%;
+        margin: 2% 5%;
+        float: inline-start;
+    }
+    .introduccion {
+        height: 650px;
+    }
+    main {
+        display:block;
+    }
+    main > h2 {
+        margin-left: 10%;
+    }
+    .info-footer {
+        width: 50%;
+        margin: 0 25%;
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        height: 600px;
+    }
+    .receta-popular {
+        width: 95%;
+    }
+    .miNombre {
+        font-size: 10px;
+    }
+}
