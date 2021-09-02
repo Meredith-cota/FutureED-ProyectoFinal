@@ -36,6 +36,13 @@
     .receta-popular {
         width: 40%;
     }
+    #acercaDeLaPagina {
+        height: 220px;
+    }
+    #acercaDeLaPagina > p {
+        font-size: 18px;
+        margin: 0 20px;
+    }
 }
 @media screen and (max-width:480px) and (min-width: 321px) {
     #logo {
@@ -69,6 +76,13 @@
     .receta-popular {
         width: 90%;
     }
+    #acercaDeLaPagina {
+        height: 250px;
+    }
+    #acercaDeLaPagina > p {
+        font-size: 18px;
+        margin: 0 20px;
+    }
 }
 @media screen and (max-width: 320px) {
     #logo {
@@ -101,5 +115,12 @@
     }
     .receta-popular {
         width: 95%;
+    }
+    #acercaDeLaPagina {
+        height: 300px;
+    }
+    #acercaDeLaPagina > p {
+        font-size: 18px;
+        margin: 0 20px;
     }
 }

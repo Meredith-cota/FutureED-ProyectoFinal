@@ -79,6 +79,24 @@ nav > a:hover {
     text-align: center;
 }
 
+/* CSS Acerca de la Pagina */
+
+#acercaDeLaPagina {
+    background-color: #d8cfcc;
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+}
+#acercaDeLaPagina > h2 {
+    text-align: center;
+}
+#acercaDeLaPagina > p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+
 /* CSS Las Recetas Mas Populares */
 
 #galeriaMasPopulares {
