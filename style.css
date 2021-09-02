@@ -1,0 +1,172 @@
+/* CSS Principal */
+body {
+    background-color: #feffff;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #ece7e5;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+}
+#logo {
+    width: 90px;
+    position: absolute;
+    border-style: solid;
+    border-color: #d8cfcc;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#titulo {
+    float: left;
+    height: 35px;
+    padding-left: 12%;
+}
+nav {
+    margin: 0;
+}
+#nav {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-left: -35px;
+}
+nav > a {
+    color: #050505;
+    padding: 0 20px;
+    background-color: #ece7e5;
+    border-radius: 20px;
+    transition: 1s;
+}
+nav > a:hover {
+    background-color: #58d2dd;
+}
+/* CSS Slider/Carrusel de Imagenes */
+
+.carrusel {
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+}
+#avanzar, #retroceder {
+    width: 55px;
+    cursor: pointer;
+    background-color: #feffff;
+    border-color: #ece7e5;
+    border-width: 3px;
+    border-style: solid;
+}
+#controles {
+    text-align: center;
+    background-color: #58d2dd;
+    height: 50px;
+}
+.control {
+    width: 90px;
+    height: 30px;
+    margin:10px;
+    background-color: #feffff;
+    border-radius: 10px;
+}
+#masVisitado {
+    text-align: center;
+}
+
+/* CSS Las Recetas Mas Populares */
+
+#galeriaMasPopulares {
+    margin: 0 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.receta-popular {
+    width: 23%;
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+    background-color: #58d2dd9d;
+    border-color: #58d2dd;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+}
+.popularImagen {
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    margin: 0 10%;
+}
+.popularImagen > img {
+    width: 100%;
+    height: 90%;
+}
+.popularLink {
+    background-color: #58d2dd9d;
+    width: 100%;;
+    height: 45px;
+    text-align: center;
+    border-top-color: #58d2dd9d;
+    border-top-style: solid;
+    border-top-width: 3px;
+}
+.popularLink > a {
+    color: #feffff;
+    font-size: 18px;
+}
+
+/* CSS Footer */
+
+footer{
+    background-color: #e673a9b4;
+    /*height: 175px;*/
+    width: 100%;
+}
+.contactos-footer {
+    text-align: center;
+}
+.info-footer {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 4%;
+}
+.info-footer > h4 {
+    border-bottom: #e673a9d0;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+}
+.info-footer > p {
+    margin-top: 0;
+}
+.marca-footer {
+    text-align: center;
+    padding-left: 40%;
+}
+.img-footer {
+    width: 5%;
+    float: left;
+}
+.img-footer > img {
+    width: 100%;
+    border-color: #e673a9d0;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 3px;
+}
+.miNombre {
+    float: left;
+    margin-left: 4%;
+    padding-top: 0;
+    margin-top: 0;
+}
